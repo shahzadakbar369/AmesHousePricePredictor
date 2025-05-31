@@ -4,7 +4,6 @@ from tkinter import messagebox
 import joblib
 import numpy as np
 
-# Get current script directory
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 model_path = os.path.join(BASE_DIR, '..', 'model', 'house_price_model.pkl')
